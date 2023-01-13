@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+#define ERR_MSG "Error"
+
 int find_len(char *str);
 char *create_xarray(int size);
 char *iterate_zeroes(char *str);
