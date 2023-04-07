@@ -1,7 +1,7 @@
 #include "hash_tables.h"
 /**
  * hash_djb2 - djbw algorithm
- * @str: string
+ * @str: string to determine the value
  * Return: hash
  */
 unsigned long int hash_djb2(const unsigned char *str)
